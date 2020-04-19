@@ -10,6 +10,8 @@ GameObject:
   m_Component:
   - component: {fileID: 2907989046209436830}
   - component: {fileID: 7480084766351431536}
+  - component: {fileID: 5167094388921699584}
+  - component: {fileID: -8167881390768654044}
   m_Layer: 0
   m_Name: Salmon Dot
   m_TagString: Untagged
@@ -81,3 +83,31 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &5167094388921699584
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3630292289862727624}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 44b5f16373057994e9bede0665e792cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!58 &-8167881390768654044
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3630292289862727624}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 0.33333334

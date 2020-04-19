@@ -7,13 +7,17 @@ public class Board : MonoBehaviour
     public int BoardWidth;
     public int BoardHeight;
     public GameObject tilePrefab;
+    public GameObject[] dots;
+    public GameObject[,] allDots;
 
     private BackgroundTile[,] allTiles;
-    
+
+
     // Start is called before the first frame update
     void Start()
     {
         allTiles = new BackgroundTile[BoardWidth, BoardHeight];
+        allDots = new GameObject[BoardWidth, BoardHeight];
         BoardSetup();
     }
 
@@ -24,6 +28,11 @@ public class Board : MonoBehaviour
                 GameObject backgroundTile = Instantiate(tilePrefab, tempPosition, Quaternion.identity) as GameObject;
                 backgroundTile.transform.parent = this.transform;
                 backgroundTile.name = "( " + i + ", " + j + " )";
+                int dotToUse = Random.Range(0, dots.Length);
+                GameObject dot = Instantiate(dots[dotToUse], tempPosition, Quaternion.identity);
+                dot.transform.parent = this.transform;
+                dot.name = "( " + i + ", " + j + " )";
+                allDots[i, j] = dot;
             }
         }
     }

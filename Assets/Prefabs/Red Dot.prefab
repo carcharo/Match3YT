@@ -10,6 +10,8 @@ GameObject:
   m_Component:
   - component: {fileID: 5181100905574818127}
   - component: {fileID: 8343763173448377766}
+  - component: {fileID: 443212443301376934}
+  - component: {fileID: 775704659241664554}
   m_Layer: 0
   m_Name: Red Dot
   m_TagString: Untagged
@@ -81,3 +83,31 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &443212443301376934
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7716592168574812337}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 44b5f16373057994e9bede0665e792cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!58 &775704659241664554
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7716592168574812337}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 0.33333334

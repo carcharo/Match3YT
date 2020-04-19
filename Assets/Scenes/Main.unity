@@ -237,6 +237,15 @@ MonoBehaviour:
   BoardHeight: 10
   tilePrefab: {fileID: 5208588177654352614, guid: 1c07d0500c6770f408badde69faea906,
     type: 3}
+  dots:
+  - {fileID: 5868387962491596617, guid: d1f5ae6c5798bba4da438501defbf218, type: 3}
+  - {fileID: 2304122691321436085, guid: 16a46bc9fe48bf94a845f1c2e6fd1d88, type: 3}
+  - {fileID: 4652488419379960570, guid: dd7da65a536238044a14390714f82520, type: 3}
+  - {fileID: 2123340185319537969, guid: 1f9e4c61f76ccdd49a055d7e6a4e3e4f, type: 3}
+  - {fileID: 7716592168574812337, guid: 223ab02a9cf9e084ba2f8c520c92fc78, type: 3}
+  - {fileID: 3630292289862727624, guid: 22312533d378e8d4eb5c0737907c37d3, type: 3}
+  - {fileID: 2876021580955578025, guid: d22628d8545bfe148bad174463bfd838, type: 3}
+  - {fileID: 2068123275487993922, guid: 948f6b58b6d7415458e4b8f01ad0b60e, type: 3}
 --- !u!4 &1851528348
 Transform:
   m_ObjectHideFlags: 0
